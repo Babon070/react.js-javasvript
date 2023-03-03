@@ -1,0 +1,126 @@
+.header__wrap{
+    padding: 10px 0;
+    height: 31px;
+    font-family: sans-serif;
+
+
+
+    &--top{
+        display: flex; 
+        border-bottom: 1px solid #E5E5E5;
+
+
+        &-left{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+
+
+            &-firstUl{
+                width: 42%;
+                display: flex;
+                justify-content: space-between;
+            }
+
+            &-twoUl{
+                width: 25%;
+                display: flex;
+                justify-content: space-between;
+            }
+        }
+    }
+
+    .icon-two{
+        font-size: 18px;
+    }
+
+    //  header bottom
+
+    .header__wrap--bottom{
+        display: flex;  
+
+
+
+        &-block{
+            width: 100%;
+            display: flex;
+
+
+            &-ul{
+                width: 100%;
+                display: flex;
+                align-items: center;
+
+                :nth-child(2){
+                    margin-left: 10px;
+                }
+
+
+                .ebay__logo{
+                    display: flex;
+                    height: 60px;
+                }
+
+                form{
+                    position: relative;
+
+                    ul{
+                        position: relative;
+                        width: 100%;
+                        padding: 1rem;
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+
+                        input{
+                           width: 715px;
+                           height: 30px;
+                           outline: none;
+                           padding-left: 30px;
+                           font-size: 18px;
+                        }
+
+                        input::-webkit-input-placeholder{
+                            // padding-left: 28px;
+                            font-size: 18px;
+                            margin-top: 5px;
+                        }
+
+                        .icon-span{
+                            position: absolute;
+                            left: 15px;
+                            top: 22px;
+                            font-size: 20px;
+                            color: #767676;
+                        }
+                        
+
+                        :nth-child(2) div select{
+                            position: absolute;
+                            top: 16px;
+                            right: 210px;
+                            padding: 8.8px 40px;
+                        }
+
+                        button{
+                            padding: 8.8px 35px;
+                            margin-left: 120px;
+                            background-color: #3665f3;
+                            outline: none;
+                            border: 1px solid #3665f3;
+                            border-radius: 2px;
+                            color: #fff;
+                        }
+
+                        :nth-child(4){
+                            font-size: 14px;
+                            color: #767676;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,29 @@
+.footer{
+    width: 100%;
+    margin-top: 80px;
+    border-top: 2px solid #000;
+
+
+    &__top{
+        margin-top: 50px;
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+
+
+        h3{
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 16px;
+            margin: 20px 0;
+            color: #767676;
+        }
+
+        li{
+            font-size: 15px;
+            font-weight: 500;
+            line-height: 25px;
+            color: #767676;
+        }
+    }
+}
